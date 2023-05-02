@@ -1,3 +1,43 @@
 body {
   background: papayawhip;
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border: 10px solid black;
+}
+.a {
+  width: 100%;
+  padding-bottom: 20%;
+  border: 10px solid rgb(0, 104, 189);
+}
+.b {
+  padding-bottom: 20%;
+  width: 65%;
+  border: 10px solid rgb(84, 177, 253);
+}
+.c {
+  width: 10%;
+  margin: auto;
+  border: 10px solid rgb(90, 177, 248);
+  padding:10%;
+
+}
+.d {
+  width: 10%;
+  margin: auto;
+  border: 10px solid rgb(0, 104, 189);
+  padding:10%;
+}
+.e {
+  width: 10%;
+  margin: auto;
+  border: 10px solid rgb(0, 104, 189);
+  padding:10%;
+}
+.f {
+  padding-bottom: 20%;
+  width: 30%;
+  border: 10px solid rgb(0, 104, 189);
+}
