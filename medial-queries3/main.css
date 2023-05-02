@@ -1,3 +1,82 @@
 body {
   background: peachpuff;
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+  border: 10px solid rgb(0, 0, 0);
+
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 75%;
+  border: 10px solid rgb(115, 83, 255);
+  min-height: auto;
+}
+.a {
+  min-height: 100px;
+  width: 100%;
+  padding-bottom: 20%;
+  border: 10px solid rgb(84, 43, 90);
+}
+.b {
+  width: 24%;
+  padding-bottom: 24%; 
+  margin-bottom: 2%; 
+  position: relative;
+  border: 10px solid rgb(0, 105, 79);
+
+}
+.c {
+  width: 24%;
+  padding-bottom: 24%; 
+  margin-bottom: 2%; 
+  position: relative;
+  border: 10px solid rgb(0, 124, 97);
+
+}
+.d {
+  width: 24%;
+  padding-bottom: 24%; 
+  margin-bottom: 2%; 
+  position: relative;
+  border: 10px solid rgb(0, 46, 105);
+
+}
+.e {
+  width: 24%;
+  padding-bottom: 24%; 
+  margin-bottom: 2%; 
+  position: relative;
+  border: 10px solid rgb(0, 36, 77);
+
+}
+.f {
+  width: 24%;
+  padding-bottom: 24%; 
+  margin-bottom: 2%; 
+  position: relative;
+  border: 10px solid rgb(0, 72, 90);
+
+}
+.g {
+  width: 24%;
+  padding-bottom: 24%; 
+  margin-bottom: 2%; 
+  position: relative;
+  border: 10px solid rgb(0, 52, 110);
+
+}
+.h {
+  min-height: auto;
+  width: 22%;
+  padding-bottom: 20%;
+  margin-bottom: 2%; 
+  position: relative;
+  height: 100vh;
+  border: 10px solid rgb(106, 106, 245);
+}
